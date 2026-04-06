@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jaimie22/runcalc-pro'
+        IMAGE_NAME = 'jdog22/runcalc-pro'
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
     }
 
